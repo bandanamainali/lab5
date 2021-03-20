@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>visibility</title>
+</head>
+
+<body>
+	<p id="pic">
+	<img src="img.jpg " width="500" height="500">
+</p>
+<input type="button" onclick="demohide()" value="show" >
+<input type="button" onclick="demovisible()" value="hide" >
+<script type="text/javascript">
+	function demohide(){
+		document.getElementById("pic").style.display = "show";
+}
+function demovisible(){
+	document.getElementById("pic").style.visibility = "hidden";
+	}
+
+</script>
+</body>
+</html>
